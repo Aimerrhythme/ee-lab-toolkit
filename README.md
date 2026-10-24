@@ -61,7 +61,9 @@ python tools/<slug>/examples/run_demo.py
 
 | Slug | Status | Summary |
 |------|--------|---------|
-| _(none yet)_ | | 见 [`themes.md`](./themes.md) 队列；完成后填入本表与 `CHANGELOG.md` |
+| [load-csv-plot](./tools/load-csv-plot/) | done | 负荷 CSV 清洗与标准出图：时间解析、缺失填补、尖峰标记、可选日均，并保存标准曲线 |
+
+更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 
 ## Design principles
 

@@ -21,6 +21,10 @@ pip install -r requirements.txt
 addpath(genpath('tools'));   % from repo root
 ```
 
-## Run the first available demo
+## Run the first demo
 
-After the first tool lands under `tools/`, open its README and run the listed demo command.
+```bash
+python tools/load-csv-plot/examples/run_demo.py
+```
+
+MATLAB: `cd` to `tools/load-csv-plot/matlab` and run `demo_load_csv_plot`. Details are in that tool's README.

@@ -24,3 +24,6 @@ slprj/
 # Data dumps (keep tiny examples only)
 *.bin
 large_data/
+
+# Generated tool demo figures
+tools/*/examples/output/
