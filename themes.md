@@ -7,7 +7,7 @@ Format: `- [status] slug | Chinese title | keywords`
 ## Seed themes (classroom EE lab)
 
 - [done] load-csv-plot | 负荷 CSV 清洗与标准出图 | load, csv, plot, pandas, matlab
-- [todo] pid-step-compare | PID 阶跃响应参数对比沙盒 | pid, step, control
+- [done] pid-step-compare | PID 阶跃响应参数对比沙盒 | pid, step, control
 - [todo] pu-convert | 有名值与标幺值互算 | per-unit, transformer, base
 - [todo] fft-thd | 波形傅里叶与 THD 速算 | fft, thd, harmonics
 - [todo] pwm-waveform | PWM 调制波形生成与演示 | pwm, carrier, modulation

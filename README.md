@@ -62,6 +62,7 @@ python tools/<slug>/examples/run_demo.py
 | Slug | Status | Summary |
 |------|--------|---------|
 | [load-csv-plot](./tools/load-csv-plot/) | done | 负荷 CSV 清洗与标准出图：时间解析、缺失填补、尖峰标记、可选日均，并保存标准曲线 |
+| [pid-step-compare](./tools/pid-step-compare/) | done | PID 阶跃响应参数对比沙盒：叠加多组 Kp/Ki/Kd 阶跃曲线，并计算上升时间、超调、调节时间与稳态误差 (PID step-response sandbox) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 
