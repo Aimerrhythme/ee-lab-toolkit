@@ -1,0 +1,15 @@
+name,quantity,value,unit_hint,direction,side,refer_to,unit_out
+hv_rated_voltage,V,220,kV,to_pu,hv,,
+hv_voltage_105,V,231,kV,to_pu,hv,,
+lv_rated_voltage,V,110,kV,to_pu,lv,,
+hv_current,I,1,pu,to_si,hv,,A
+lv_current,I,1,pu,to_si,lv,,A
+load_s,S,80,MVA,to_pu,same,,
+load_p,P,60,MW,to_pu,same,,
+load_q,Q,45,Mvar,to_pu,same,,
+hv_reactance,X,48.4,ohm,to_pu,hv,,
+lv_reactance,X,12.1,ohm,to_pu,lv,,
+x_referred,X,48.4,ohm,to_pu,hv,lv,
+hv_resistance,R,24.2,ohm,to_pu,hv,,
+x_to_si,Z,0.1,pu,to_si,hv,,ohm
+hv_v_back,V,1.05,pu,to_si,hv,,kV
