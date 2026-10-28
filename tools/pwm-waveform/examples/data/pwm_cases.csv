@@ -1,0 +1,3 @@
+name,mode,f_m,f_c,m_f,m_a,v_dc,phase_deg,cycles,samples_per_carrier
+bipolar_ma08,bipolar,50,,21,0.8,100,0,2,200
+unipolar_ma08,unipolar,50,,21,0.8,100,0,2,200
