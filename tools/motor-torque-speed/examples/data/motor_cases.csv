@@ -1,0 +1,10 @@
+name,motor,v,f,poles,connection,r1,x1,r2,x2,xm,p_rated,ra,rf,rs,k_phi,k_f,i_min,i_max
+im_base,induction,380,50,4,y,0.5,1.5,0.4,1.5,40,8000,,,,,,,
+im_high_r2,induction,380,50,4,y,0.5,1.5,1.2,1.5,40,8000,,,,,,,
+im_low_v,induction,304,50,4,y,0.5,1.5,0.4,1.5,40,5000,,,,,,,
+dc_separate,dc_separate,220,,,,,,,,,4000,1,,,1.5,,,
+dc_separate_low_v,dc_separate,180,,,,,,,,,4000,1,,,1.5,,,
+dc_separate_weak_field,dc_separate,220,,,,,,,,,4000,1,,,1.2,,,
+dc_shunt_low_v,dc_shunt,180,,,,,,,,,4000,1,220,,,1.5,,
+dc_series,dc_series,220,,,,,,,,,2000,0.4,,0.2,,0.08,8,40
+dc_series_low_v,dc_series,180,,,,,,,,,2000,0.4,,0.2,,0.08,8,40

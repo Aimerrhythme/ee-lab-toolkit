@@ -66,6 +66,7 @@ python tools/<slug>/examples/run_demo.py
 | [pu-convert](./tools/pu-convert/) | done | 有名值与标幺值互算：由 S_base、V_base 求 I_base、Z_base，并在 V/I/S/P/Q/Z/R/X 与 pu 之间换算，含双绕组阻抗归算 (SI and per-unit conversion) |
 | [fft-thd](./tools/fft-thd/) | done | 波形傅里叶与 THD 速算：单边幅度谱、基波检测、各次谐波幅值/百分比与 THD；非整周期用窗函数和最小二乘拟合 (FFT spectrum and THD) |
 | [pwm-waveform](./tools/pwm-waveform/) | done | PWM 调制波形生成与演示：正弦-三角载波的单极性/双极性 SPWM，门极与桥口电压，并核对线性区基波峰值和 THD (sine-triangle PWM waveforms) |
+| [motor-torque-speed](./tools/motor-torque-speed/) | done | 感应/直流电机转矩-转速曲线：由三相感应电机每相等效电路扫转差，给出起动转矩、最大转矩及临界转差和额定点，并对比直流他励/并励/串励及电压、转子电阻、磁场变化 (induction and DC torque-speed curves) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

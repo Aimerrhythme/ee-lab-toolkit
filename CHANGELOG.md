@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `motor-torque-speed`: torque-speed curves for a three-phase induction motor from its per-phase equivalent circuit (slip sweep, starting torque, breakdown torque and slip, rated point) and for DC separately excited, shunt, and series motors, with parameter comparisons, in Python and base MATLAB.
 - Tool `pwm-waveform`: sine-triangle PWM (bipolar and unipolar) with carrier and modulation index, gate and bridge-voltage waveforms, and a linear-range fundamental / full-band THD check, in Python and base MATLAB.
 - Tool `fft-thd`: single-sided amplitude spectrum, fundamental detection, per-harmonic amplitude and percent, and THD for a sampled waveform, with windowing and a least-squares fit for non-integer cycles, in Python and base MATLAB.
 - Tool `pu-convert`: convert V, I, S/P/Q, and Z/R/X between SI (named) values and per-unit on a shared power base, including two-winding impedance referral, in Python and base MATLAB.
