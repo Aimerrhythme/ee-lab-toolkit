@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `load-kmeans`: cluster typical daily load profiles with peak-normalized k-means — per-day labels, centroids, within-cluster SSE, and silhouette — in Python and base MATLAB.
 - Tool `pv-daily-features`: daily PV features from a power time series — peak power and time, energy, capacity factor, daylight window, step and window ramps, and a variability index — in Python and base MATLAB.
 - Tool `motor-torque-speed`: torque-speed curves for a three-phase induction motor from its per-phase equivalent circuit (slip sweep, starting torque, breakdown torque and slip, rated point) and for DC separately excited, shunt, and series motors, with parameter comparisons, in Python and base MATLAB.
 - Tool `pwm-waveform`: sine-triangle PWM (bipolar and unipolar) with carrier and modulation index, gate and bridge-voltage waveforms, and a linear-range fundamental / full-band THD check, in Python and base MATLAB.
