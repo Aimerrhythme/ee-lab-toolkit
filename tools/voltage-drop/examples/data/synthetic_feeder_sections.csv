@@ -1,0 +1,5 @@
+section,from_bus,to_bus,length_km,r_ohm_per_km,x_ohm_per_km,p_kw,q_kvar
+L1,B0,B1,1.5,0.27,0.35,800,300
+L2,B1,B2,1.2,0.40,0.37,500,200
+L3,B2,B3,0.8,0.55,0.38,300,120
+L4,B3,B4,0.6,0.65,0.40,180,80
