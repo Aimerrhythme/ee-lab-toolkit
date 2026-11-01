@@ -69,6 +69,7 @@ python tools/<slug>/examples/run_demo.py
 | [motor-torque-speed](./tools/motor-torque-speed/) | done | 感应/直流电机转矩-转速曲线：由三相感应电机每相等效电路扫转差，给出起动转矩、最大转矩及临界转差和额定点，并对比直流他励/并励/串励及电压、转子电阻、磁场变化 (induction and DC torque-speed curves) |
 | [pv-daily-features](./tools/pv-daily-features/) | done | 光伏日出力特征提取：按日给出峰值功率与时刻、发电量与容量因子、开机窗口、步长/窗口爬坡和波动指数 (PV daily peak, ramp, and variability) |
 | [load-kmeans](./tools/load-kmeans/) | done | 典型日负荷曲线聚类：按日峰值归一化后做 k-means，给出每日簇标签、典型日质心、簇内平方和与轮廓系数 (k-means on peak-normalized daily load profiles) |
+| [voltage-drop](./tools/voltage-drop/) | done | 线路压降估算小工具：用教材近似公式由线路 R/X 与负荷 P/Q 或 I/pf 估算三相或单相压降和百分数，并可沿放射状馈线逐段累加母线电压 (approximate feeder voltage drop) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

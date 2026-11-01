@@ -14,7 +14,7 @@ Format: `- [status] slug | Chinese title | keywords`
 - [done] motor-torque-speed | 感应/直流电机转矩-转速曲线 | motor, torque, speed
 - [done] pv-daily-features | 光伏日出力特征提取 | pv, ramp, peak
 - [done] load-kmeans | 典型日负荷曲线聚类 | kmeans, load-profile
-- [doing] voltage-drop | 线路压降估算小工具 | voltage-drop, feeder
+- [done] voltage-drop | 线路压降估算小工具 | voltage-drop, feeder
 - [todo] short-circuit-mva | 短路容量/阻抗速算 | short-circuit, mva
 - [todo] bode-demo | 简单传递函数 Bode 图演示 | bode, tf, control
 - [todo] simulink-param-export | 参数表 CSV 导出约定与示例脚本 | simulink, csv, params
