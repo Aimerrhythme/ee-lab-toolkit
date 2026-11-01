@@ -68,6 +68,7 @@ python tools/<slug>/examples/run_demo.py
 | [pwm-waveform](./tools/pwm-waveform/) | done | PWM 调制波形生成与演示：正弦-三角载波的单极性/双极性 SPWM，门极与桥口电压，并核对线性区基波峰值和 THD (sine-triangle PWM waveforms) |
 | [motor-torque-speed](./tools/motor-torque-speed/) | done | 感应/直流电机转矩-转速曲线：由三相感应电机每相等效电路扫转差，给出起动转矩、最大转矩及临界转差和额定点，并对比直流他励/并励/串励及电压、转子电阻、磁场变化 (induction and DC torque-speed curves) |
 | [pv-daily-features](./tools/pv-daily-features/) | done | 光伏日出力特征提取：按日给出峰值功率与时刻、发电量与容量因子、开机窗口、步长/窗口爬坡和波动指数 (PV daily peak, ramp, and variability) |
+| [load-kmeans](./tools/load-kmeans/) | done | 典型日负荷曲线聚类：按日峰值归一化后做 k-means，给出每日簇标签、典型日质心、簇内平方和与轮廓系数 (k-means on peak-normalized daily load profiles) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 
