@@ -70,6 +70,7 @@ python tools/<slug>/examples/run_demo.py
 | [pv-daily-features](./tools/pv-daily-features/) | done | 光伏日出力特征提取：按日给出峰值功率与时刻、发电量与容量因子、开机窗口、步长/窗口爬坡和波动指数 (PV daily peak, ramp, and variability) |
 | [load-kmeans](./tools/load-kmeans/) | done | 典型日负荷曲线聚类：按日峰值归一化后做 k-means，给出每日簇标签、典型日质心、簇内平方和与轮廓系数 (k-means on peak-normalized daily load profiles) |
 | [voltage-drop](./tools/voltage-drop/) | done | 线路压降估算小工具：用教材近似公式由线路 R/X 与负荷 P/Q 或 I/pf 估算三相或单相压降和百分数，并可沿放射状馈线逐段累加母线电压 (approximate feeder voltage drop) |
+| [short-circuit-mva](./tools/short-circuit-mva/) | done | 短路容量/阻抗速算：由短路容量、短路电流或阻抗互算，并用容量法把电源、变压器和线路按串联倒数、并联相加折成三相短路电流，同时给出 X/R 相量校核 (short-circuit MVA and impedance) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

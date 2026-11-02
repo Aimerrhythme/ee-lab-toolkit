@@ -1,0 +1,5 @@
+name,kind,combine,s_mva,s_rated_mva,z_percent,z_ohm,x_over_r
+grid,source,series,500,,,,10
+tx,transformer,series,,20,8,,10
+cable,line,series,,,,0.2,10
+motor,transformer,parallel,,5,20,,10
