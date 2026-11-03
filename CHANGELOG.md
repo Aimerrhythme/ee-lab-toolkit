@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `bode-demo`: Bode magnitude (dB) and phase (deg) of a transfer function on a log frequency grid, with gain and phase margins and crossover frequencies, for a first-order lag, a second-order damping sweep, and a filtered PID/plant loop, in Python (numpy/scipy/matplotlib) and base MATLAB.
 - Tool `short-circuit-mva`: convert short-circuit MVA, fault current, and impedance, and combine source, transformer, and line stages by the MVA method (series reciprocal, parallel sum), with an X/R phasor check, in Python and base MATLAB.
 - Tool `voltage-drop`: approximate feeder voltage drop for one section or a radial multi-section line, from R/X and P/Q or I/pf, with percent drop and a sending-to-receiving voltage profile, in Python and base MATLAB.
 - Tool `load-kmeans`: cluster typical daily load profiles with peak-normalized k-means — per-day labels, centroids, within-cluster SSE, and silhouette — in Python and base MATLAB.

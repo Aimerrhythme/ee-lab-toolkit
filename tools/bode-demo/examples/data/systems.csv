@@ -1,0 +1,12 @@
+name,form,k,tau,wn,zeta,kp,ki,kd,kd_n,num,den
+tau=1,first_order,1,1,,,,,,,,
+tau=0.2,first_order,1,0.2,,,,,,,,
+zeta=0.2,second_order,1,,1,0.2,,,,,,
+zeta=0.5,second_order,1,,1,0.5,,,,,,
+zeta=0.707,second_order,1,,1,0.7071067811865476,,,,,,
+zeta=1,second_order,1,,1,1,,,,,,
+zeta=1.5,second_order,1,,1,1.5,,,,,,
+P,pid_loop,1,,1,1,2,0,0,10,,
+PI,pid_loop,1,,1,1,2,1.5,0,10,,
+PID,pid_loop,1,,1,1,2,1.5,0.8,10,,
+textbook,tf,,,,,,,,,1,1 2 1 0
