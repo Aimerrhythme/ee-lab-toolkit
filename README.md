@@ -72,6 +72,7 @@ python tools/<slug>/examples/run_demo.py
 | [voltage-drop](./tools/voltage-drop/) | done | 线路压降估算小工具：用教材近似公式由线路 R/X 与负荷 P/Q 或 I/pf 估算三相或单相压降和百分数，并可沿放射状馈线逐段累加母线电压 (approximate feeder voltage drop) |
 | [short-circuit-mva](./tools/short-circuit-mva/) | done | 短路容量/阻抗速算：由短路容量、短路电流或阻抗互算，并用容量法把电源、变压器和线路按串联倒数、并联相加折成三相短路电流，同时给出 X/R 相量校核 (short-circuit MVA and impedance) |
 | [bode-demo](./tools/bode-demo/) | done | 简单传递函数 Bode 图演示：由分子/分母系数在对数频率网格上计算幅值 (dB) 与相位 (deg)，并给出增益/相位裕度及穿越频率；示例含一阶、二阶阻尼扫描和 PID 回路 (Bode plot, margins, and crossover frequencies) |
+| [simulink-param-export](./tools/simulink-param-export/) | done | 参数表 CSV 导出约定与示例脚本：用 name/value/unit/description 等列读写块、模型和工作区参数，检查类型与范围并做 CSV 往返；核心不依赖 Simulink (parameter-table CSV round trip) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

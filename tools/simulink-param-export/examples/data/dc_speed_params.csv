@@ -1,0 +1,20 @@
+# Synthetic DC-motor speed-loop parameters for a classroom CSV round trip. No student records.
+
+参数名;值;单位;说明;作用域;路径;类型;下限;上限;分组
+Kp;1.8;1;Proportional gain of the speed PI;workspace;dc_speed;double;0;100;controller
+Ki;12;1/s;Integral gain of the speed PI;workspace;dc_speed;double;0;1000;controller
+Ts;0.0001;s;Fixed-step size;model;dc_speed;double;1e-6;0.01;solver
+StopTime;2;s;Simulation stop time;model;dc_speed;double;0;100;solver
+Decimation;10;1;Output decimation factor;model;dc_speed;;1;1000;solver
+Gain;1;1;Speed reference scale;block;dc_speed/Speed Ref;double;0;10;reference
+R;0.8;ohm;Armature resistance;workspace;dc_speed;double;0.01;100;plant
+L;0.005;H;Armature inductance;workspace;dc_speed;double;0;1;plant
+Kt;0.4;N.m/A;Torque constant;workspace;dc_speed;double;0;10;plant
+Ke;0.4;V/rad/s;Back-emf constant;workspace;dc_speed;double;0;10;plant
+J;0.002;kg.m^2;Rotor inertia;workspace;dc_speed;double;1e-6;1;plant
+B;0.0002;N.m/rad/s;Viscous friction;workspace;dc_speed;double;0;1;plant
+UseFilter;true;;Enable speed measurement filter;mask;dc_speed/Speed PI;logical;;;controller
+FilterHz;50;Hz;Measurement filter cutoff;workspace;dc_speed;double;0;1000;controller
+ModelName;dc_speed;;Model file stem used in class;base;;string;;;meta
+RatedRpm;1500;rpm;Nameplate speed used only as a label;base;;double;0;10000;plant
+Note;class-demo;;"Label, not a measurement";base;;string;;;meta

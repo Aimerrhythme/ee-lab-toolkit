@@ -17,7 +17,7 @@ Format: `- [status] slug | Chinese title | keywords`
 - [done] voltage-drop | 线路压降估算小工具 | voltage-drop, feeder
 - [done] short-circuit-mva | 短路容量/阻抗速算 | short-circuit, mva
 - [done] bode-demo | 简单传递函数 Bode 图演示 | bode, tf, control
-- [todo] simulink-param-export | 参数表 CSV 导出约定与示例脚本 | simulink, csv, params
+- [done] simulink-param-export | 参数表 CSV 导出约定与示例脚本 | simulink, csv, params
 
 ## Custom themes
 
