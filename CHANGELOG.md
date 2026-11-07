@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `pp-fault-synth-export`: batch short-circuit samples on a radial MV feeder, with phase voltages and currents plus protection labels (AG/BG/CG, AB/BC/CA, ABC), exported as one CSV schema in Python and base MATLAB. Pandapower CIGRE-MV is an optional engine with the same columns.
 - Tool `simulink-param-export`: CSV convention for Simulink block, mask, model, and workspace parameters (name, value, unit, description, scope, path, dtype, bounds, group), with validation and a canonical round trip, in Python (stdlib) and base MATLAB. Simulink is not required.
 - Tool `bode-demo`: Bode magnitude (dB) and phase (deg) of a transfer function on a log frequency grid, with gain and phase margins and crossover frequencies, for a first-order lag, a second-order damping sweep, and a filtered PID/plant loop, in Python (numpy/scipy/matplotlib) and base MATLAB.
 - Tool `short-circuit-mva`: convert short-circuit MVA, fault current, and impedance, and combine source, transformer, and line stages by the MVA method (series reciprocal, parallel sum), with an X/R phasor check, in Python and base MATLAB.

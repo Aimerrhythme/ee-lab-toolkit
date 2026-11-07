@@ -1,0 +1,6 @@
+kind,name,from_bus,to_bus,length_km,r1_ohm,x1_ohm,r0_ohm,x0_ohm,z1_ohm,x_over_r,z0_factor
+source,grid,B0,,,,,,,0.4,10,1.5
+line,L1,B0,B1,1.5,0.405,0.525,1.215,1.575,,,
+line,L2,B1,B2,1.2,0.48,0.444,1.44,1.332,,,
+line,L3,B2,B3,0.8,0.44,0.304,1.32,0.912,,,
+line,L4,B3,B4,0.6,0.39,0.24,1.17,0.72,,,

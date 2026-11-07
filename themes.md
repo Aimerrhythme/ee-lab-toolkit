@@ -23,7 +23,7 @@ Format: `- [status] slug | Chinese title | keywords`
 
 （在下方追加；自动化优先取本文件第一条 `todo`。）
 
-- [todo] pp-fault-synth-export | pandapower 短路样本合成与标签导出 | pandapower, 故障样本, 标签, csv
+- [done] pp-fault-synth-export | pandapower 短路样本合成与标签导出 | pandapower, 故障样本, 标签, csv
   - 课堂角度：在 CIGRE-MV 或简易馈线上批量扫短路位置与类型，导出电压/电流特征与标签 CSV，作为后续分类实验的标准数据源，强调仿真标签如何对应现场保护术语。
   - 参考：https://github.com/e2nIEE/pandapower · https://arxiv.org/abs/2510.00831
 
