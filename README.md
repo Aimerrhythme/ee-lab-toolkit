@@ -74,6 +74,7 @@ python tools/<slug>/examples/run_demo.py
 | [bode-demo](./tools/bode-demo/) | done | 简单传递函数 Bode 图演示：由分子/分母系数在对数频率网格上计算幅值 (dB) 与相位 (deg)，并给出增益/相位裕度及穿越频率；示例含一阶、二阶阻尼扫描和 PID 回路 (Bode plot, margins, and crossover frequencies) |
 | [simulink-param-export](./tools/simulink-param-export/) | done | 参数表 CSV 导出约定与示例脚本：用 name/value/unit/description 等列读写块、模型和工作区参数，检查类型与范围并做 CSV 往返；核心不依赖 Simulink (parameter-table CSV round trip) |
 | [pp-fault-synth-export](./tools/pp-fault-synth-export/) | done | pandapower 短路样本合成与标签导出：在放射状馈线上按母线、故障类型和过渡电阻批量计算相电压与相电流，导出保护术语标签 CSV；可选用 pandapower 的 CIGRE-MV，列与简化模型相同 (short-circuit sample synthesis and protection labels) |
+| [load-curve-dnn-fit](./tools/load-curve-dnn-fit/) | done | 典型日负荷曲线 DNN 拟合小工具：峰值或最小-最大归一化后，用可调次数的多项式和一层 tanh 的浅层 MLP 拟合负荷对时刻的函数，并比较 RMSE、MAE 与最大绝对误差 (polynomial and shallow DNN fit of a daily load curve) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

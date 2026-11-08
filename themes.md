@@ -27,7 +27,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：在 CIGRE-MV 或简易馈线上批量扫短路位置与类型，导出电压/电流特征与标签 CSV，作为后续分类实验的标准数据源，强调仿真标签如何对应现场保护术语。
   - 参考：https://github.com/e2nIEE/pandapower · https://arxiv.org/abs/2510.00831
 
-- [todo] load-curve-dnn-fit | 典型日负荷曲线 DNN 拟合小工具 | 负荷曲线, DNN, 拟合, 归一化
+- [done] load-curve-dnn-fit | 典型日负荷曲线 DNN 拟合小工具 | 负荷曲线, DNN, 拟合, 归一化
   - 课堂角度：用公开日负荷做函数逼近，对比多项式与浅层 DNN 的拟合残差，作为进入「代理模型/潮流代理」前的最小可运行模板。
   - 参考：https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 
