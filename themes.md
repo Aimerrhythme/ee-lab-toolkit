@@ -31,7 +31,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：用公开日负荷做函数逼近，对比多项式与浅层 DNN 的拟合残差，作为进入「代理模型/潮流代理」前的最小可运行模板。
   - 参考：https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 
-- [todo] dga-ratio-vs-rf | 三比值与随机森林 DGA 对照台 | DGA, 三比值, 随机森林, 变压器
+- [done] dga-ratio-vs-rf | 三比值与随机森林 DGA 对照台 | DGA, 三比值, 随机森林, 变压器
   - 课堂角度：同一批油色谱样本并行跑 IEC 三比值编码与随机森林多分类，输出混淆矩阵与气体特征重要度，方便运维课做「规则 vs 数据」对照实验。
   - 参考：https://arxiv.org/abs/2110.11467
 

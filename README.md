@@ -75,6 +75,7 @@ python tools/<slug>/examples/run_demo.py
 | [simulink-param-export](./tools/simulink-param-export/) | done | 参数表 CSV 导出约定与示例脚本：用 name/value/unit/description 等列读写块、模型和工作区参数，检查类型与范围并做 CSV 往返；核心不依赖 Simulink (parameter-table CSV round trip) |
 | [pp-fault-synth-export](./tools/pp-fault-synth-export/) | done | pandapower 短路样本合成与标签导出：在放射状馈线上按母线、故障类型和过渡电阻批量计算相电压与相电流，导出保护术语标签 CSV；可选用 pandapower 的 CIGRE-MV，列与简化模型相同 (short-circuit sample synthesis and protection labels) |
 | [load-curve-dnn-fit](./tools/load-curve-dnn-fit/) | done | 典型日负荷曲线 DNN 拟合小工具：峰值或最小-最大归一化后，用可调次数的多项式和一层 tanh 的浅层 MLP 拟合负荷对时刻的函数，并比较 RMSE、MAE 与最大绝对误差 (polynomial and shallow DNN fit of a daily load curve) |
+| [dga-ratio-vs-rf](./tools/dga-ratio-vs-rf/) | done | 三比值与随机森林 DGA 对照台：同一批合成油色谱样本并行跑简化 IEC 60599 三比值规则和手写随机森林多分类，输出测试集混淆矩阵与气体特征重要度 (IEC three-ratio rule vs random forest on DGA) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

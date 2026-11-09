@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `dga-ratio-vs-rf`: compare a simplified IEC 60599 three-ratio rule with a hand-written random forest on synthetic dissolved-gas samples — test-set confusion matrices (rule has an ND outcome) and gas feature importance — in Python (numpy/matplotlib) and base MATLAB.
 - Tool `load-curve-dnn-fit`: fit one typical daily load curve with a configurable polynomial and a shallow tanh MLP (1-hidden-1, full-batch Adam), after peak or min-max normalization, and compare RMSE, MAE, and maximum absolute error in kW, in Python and base MATLAB.
 - Tool `pp-fault-synth-export`: batch short-circuit samples on a radial MV feeder, with phase voltages and currents plus protection labels (AG/BG/CG, AB/BC/CA, ABC), exported as one CSV schema in Python and base MATLAB. Pandapower CIGRE-MV is an optional engine with the same columns.
 - Tool `simulink-param-export`: CSV convention for Simulink block, mask, model, and workspace parameters (name, value, unit, description, scope, path, dtype, bounds, group), with validation and a canonical round trip, in Python (stdlib) and base MATLAB. Simulink is not required.
