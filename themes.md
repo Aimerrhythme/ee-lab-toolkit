@@ -35,7 +35,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：同一批油色谱样本并行跑 IEC 三比值编码与随机森林多分类，输出混淆矩阵与气体特征重要度，方便运维课做「规则 vs 数据」对照实验。
   - 参考：https://arxiv.org/abs/2110.11467
 
-- [todo] pmu-iforest-demo | 同步相量毛刺 Isolation Forest 演示 | PMU, Isolation Forest, 异常, 可视化
+- [done] pmu-iforest-demo | 同步相量毛刺 Isolation Forest 演示 | PMU, Isolation Forest, 异常, 可视化
   - 课堂角度：生成含毛刺与短时频率偏移的合成相量流，调 contamination 观察告警灵敏度，输出异常时标与幅值图，对接广域监测导论。
   - 参考：https://arxiv.org/abs/2509.25612
 
