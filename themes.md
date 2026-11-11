@@ -39,7 +39,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：生成含毛刺与短时频率偏移的合成相量流，调 contamination 观察告警灵敏度，输出异常时标与幅值图，对接广域监测导论。
   - 参考：https://arxiv.org/abs/2509.25612
 
-- [todo] evcs-load-window | 充电桩负荷清洗与特征窗切分 | 充电桩, 特征窗, csv, 预处理
+- [done] evcs-load-window | 充电桩负荷清洗与特征窗切分 | 充电桩, 特征窗, csv, 预处理
   - 课堂角度：把原始充电会话功率清洗、重采样并切成固定窗，导出给 LSTM/基线预测脚本共用，专升本实验强调数据管线先于模型调参。
   - 参考：https://arxiv.org/abs/2510.16719
 

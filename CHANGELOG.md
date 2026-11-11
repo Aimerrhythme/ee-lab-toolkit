@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `evcs-load-window`: clean EV charging-session records (bad times, missing/zero/over-limit power), resample to a time-weighted station load, and cut input/target windows exported as CSV, in Python (numpy/pandas/matplotlib) and base MATLAB.
 - Tool `pmu-iforest-demo`: hand-written Isolation Forest on a synthetic 30 fps PMU stream (voltage magnitude, angle, frequency) with frame-to-frame features, contamination-based flagging, anomaly timestamps, and a three-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `dga-ratio-vs-rf`: compare a simplified IEC 60599 three-ratio rule with a hand-written random forest on synthetic dissolved-gas samples — test-set confusion matrices (rule has an ND outcome) and gas feature importance — in Python (numpy/matplotlib) and base MATLAB.
 - Tool `load-curve-dnn-fit`: fit one typical daily load curve with a configurable polynomial and a shallow tanh MLP (1-hidden-1, full-batch Adam), after peak or min-max normalization, and compare RMSE, MAE, and maximum absolute error in kW, in Python and base MATLAB.
