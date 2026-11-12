@@ -78,6 +78,7 @@ python tools/<slug>/examples/run_demo.py
 | [dga-ratio-vs-rf](./tools/dga-ratio-vs-rf/) | done | 三比值与随机森林 DGA 对照台：同一批合成油色谱样本并行跑简化 IEC 60599 三比值规则和手写随机森林多分类，输出测试集混淆矩阵与气体特征重要度 (IEC three-ratio rule vs random forest on DGA) |
 | [pmu-iforest-demo](./tools/pmu-iforest-demo/) | done | 同步相量毛刺 Isolation Forest 演示：合成 30 帧/秒 PMU 流，手写 Isolation Forest 按帧间变化和频率偏差打分，输出异常时标与三联图 (Isolation Forest on PMU glitches) |
 | [evcs-load-window](./tools/evcs-load-window/) | done | 充电桩负荷清洗与特征窗切分：清洗充电会话记录，按重叠时间折算成固定步长站级功率，再切成输入窗 X 与预测窗 y 导出 CSV (EV charging sessions to forecasting windows) |
+| [bess-tou-qlearn-toy](./tools/bess-tou-qlearn-toy/) | done | 分时电价储能 Q-learning 玩具环境：在小时×SOC 网格上做表格 Q-learning，与阈值贪心策略比较一日电费并导出调度表 (tabular Q-learning for battery TOU arbitrage) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

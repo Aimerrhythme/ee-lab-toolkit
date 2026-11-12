@@ -43,6 +43,6 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：把原始充电会话功率清洗、重采样并切成固定窗，导出给 LSTM/基线预测脚本共用，专升本实验强调数据管线先于模型调参。
   - 参考：https://arxiv.org/abs/2510.16719
 
-- [todo] bess-tou-qlearn-toy | 分时电价储能 Q-learning 玩具环境 | 储能, Q-learning, 分时电价, 调度
+- [done] bess-tou-qlearn-toy | 分时电价储能 Q-learning 玩具环境 | 储能, Q-learning, 分时电价, 调度
   - 课堂角度：实现离散电价—SOC 网格上的表格 Q-learning，对比贪心与学习策略的一日电费，为后续 DQN 短文预留同一奖励定义。
   - 参考：https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
