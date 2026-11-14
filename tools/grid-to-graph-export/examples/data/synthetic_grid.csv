@@ -1,0 +1,11 @@
+kind,name,bus_id,bus_type,vn_kv,p_mw,q_mvar,vm_pu,va_deg,x,y,from_bus,to_bus,r_ohm,x_ohm,b_siemens,g_siemens,tap,shift_deg,rate_mva,length_km,in_service
+bus,Slack,B0,slack,10,,,1.02,0,0,0,,,,,,,,,,,1
+bus,Load1,B1,pq,10,-2,-0.8,1,0,1,0,,,,,,,,,,,1
+bus,Load2,B2,pq,10,-1.5,-0.5,1,0,1,1,,,,,,,,,,,1
+bus,Gen,B3,pv,10,1.2,,1.01,0,2,1,,,,,,,,,,,1
+line,L01,,,,,,,,,,B0,B1,0.5,0.5,0.002,0,1,0,5,1,1
+line,L12,,,,,,,,,,B1,B2,0.2,0.6,0,0,1,0,5,1.2,1
+trafo,T20,,,,,,,,,,B2,B0,0.5,0.5,0,0,1.25,0,8,0,1
+line,L23,,,,,,,,,,B2,B3,0.4,0.8,0,0,1,0,4,0.8,1
+line,L13,,,,,,,,,,B1,B3,0.5,0.5,0,0,1,0,4,1.5,0
+shunt,C1,B1,,,,,,,,,,,,,0.005,0,,,,,1

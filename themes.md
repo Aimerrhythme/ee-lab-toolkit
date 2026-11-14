@@ -47,7 +47,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：实现离散电价—SOC 网格上的表格 Q-learning，对比贪心与学习策略的一日电费，为后续 DQN 短文预留同一奖励定义。
   - 参考：https://arxiv.org/abs/2608.02599 · https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems
 
-- [todo] grid-to-graph-export | pandapower 电网拓扑转图结构导出 | pandapower, 邻接矩阵, 图, GNN 预处理
+- [done] grid-to-graph-export | pandapower 电网拓扑转图结构导出 | pandapower, 邻接矩阵, 图, GNN 预处理
   - 课堂角度：把 IEEE/CIGRE 算例的母线、线路导出为邻接矩阵、节点特征与边特征 CSV，作为 GNN 状态估计类实验的通用数据接口，顺便复习导纳矩阵概念。
   - 参考：https://github.com/e2nIEE/pandapower · https://arxiv.org/abs/2201.04056
 
