@@ -51,7 +51,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：把 IEEE/CIGRE 算例的母线、线路导出为邻接矩阵、节点特征与边特征 CSV，作为 GNN 状态估计类实验的通用数据接口，顺便复习导纳矩阵概念。
   - 参考：https://github.com/e2nIEE/pandapower · https://arxiv.org/abs/2201.04056
 
-- [todo] meter-weekly-heatmap | 电表日用电周矩阵热图与缺失处理 | 智能电表, 热图, 缺失值, 窃电预处理
+- [done] meter-weekly-heatmap | 电表日用电周矩阵热图与缺失处理 | 智能电表, 热图, 缺失值, 窃电预处理
   - 课堂角度：将用户日用电序列补缺、归一化并折成「周×星期」矩阵热图，直观对比正常用户与异常用户的用电纹理，为窃电 CNN 分类准备输入。
   - 参考：https://github.com/henryRDlab/ElectricityTheftDetection · https://arxiv.org/abs/2102.06039
 

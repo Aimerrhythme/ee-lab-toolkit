@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `meter-weekly-heatmap`: fold daily smart-meter kWh into week × weekday matrices, mark missing readings (blank/NaN/negative), linearly fill only short interior gaps, normalize per customer, and export long CSV, summary, and heatmap, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `grid-to-graph-export`: export a network as a binary adjacency matrix, 0-based node and directed-edge feature tables, and the positive-sequence bus admittance matrix G/B, from one synthetic 4-bus CSV in Python and base MATLAB. Pandapower IEEE/CIGRE cases are an optional Python engine with the same columns.
 - Tool `bess-tou-qlearn-toy`: tabular Q-learning (deterministic full-sweep training) for a battery on a synthetic hourly TOU tariff over an hour × SOC grid, compared with a threshold-greedy policy on one-day net cost and exported as a schedule CSV, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `evcs-load-window`: clean EV charging-session records (bad times, missing/zero/over-limit power), resample to a time-weighted station load, and cut input/target windows exported as CSV, in Python (numpy/pandas/matplotlib) and base MATLAB.
