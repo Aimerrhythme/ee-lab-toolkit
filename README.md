@@ -81,6 +81,7 @@ python tools/<slug>/examples/run_demo.py
 | [bess-tou-qlearn-toy](./tools/bess-tou-qlearn-toy/) | done | 分时电价储能 Q-learning 玩具环境：在小时×SOC 网格上做表格 Q-learning，与阈值贪心策略比较一日电费并导出调度表 (tabular Q-learning for battery TOU arbitrage) |
 | [grid-to-graph-export](./tools/grid-to-graph-export/) | done | pandapower 电网拓扑转图结构导出：把母线、线路和变压器写成 0 起始的节点/有向边特征、二进制邻接矩阵和导纳矩阵 G/B；课堂默认走同一份合成 4 母线 CSV，Python 可选 pandapower 算例 (grid topology to graph and Ybus CSV) |
 | [meter-weekly-heatmap](./tools/meter-weekly-heatmap/) | done | 电表日用电周矩阵热图与缺失处理：缺失（空/NaN/负数）标记，仅对中间短缺口线性插值，按户 min-max 后折成「周×星期」矩阵并出热图 (smart-meter weekly heatmap with gap handling) |
+| [el-image-loader-aug](./tools/el-image-loader-aug/) | done | 光伏 EL 图像读取、划分与增强：按 elpv 风格标签 CSV 读入灰度图，按类别确定性分层划分 train/val/test，仅对 train 做翻转/旋转增强并出清单与样例拼图 (EL image loader, stratified split and flip/rotate augmentation) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

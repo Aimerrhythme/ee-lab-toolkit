@@ -55,7 +55,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：将用户日用电序列补缺、归一化并折成「周×星期」矩阵热图，直观对比正常用户与异常用户的用电纹理，为窃电 CNN 分类准备输入。
   - 参考：https://github.com/henryRDlab/ElectricityTheftDetection · https://arxiv.org/abs/2102.06039
 
-- [todo] el-image-loader-aug | 光伏 EL 图像读取、划分与增强脚本 | 光伏, EL 图像, 数据增强, 数据集划分
+- [done] el-image-loader-aug | 光伏 EL 图像读取、划分与增强脚本 | 光伏, EL 图像, 数据增强, 数据集划分
   - 课堂角度：读取公开 EL 电池片图像与标签，做分层划分、旋转/翻转增强并导出样例拼图，让学生在建模前先看懂图像数据集的结构与类别分布。
   - 参考：https://github.com/zae-bayern/elpv-dataset
 
