@@ -82,6 +82,7 @@ python tools/<slug>/examples/run_demo.py
 | [grid-to-graph-export](./tools/grid-to-graph-export/) | done | pandapower 电网拓扑转图结构导出：把母线、线路和变压器写成 0 起始的节点/有向边特征、二进制邻接矩阵和导纳矩阵 G/B；课堂默认走同一份合成 4 母线 CSV，Python 可选 pandapower 算例 (grid topology to graph and Ybus CSV) |
 | [meter-weekly-heatmap](./tools/meter-weekly-heatmap/) | done | 电表日用电周矩阵热图与缺失处理：缺失（空/NaN/负数）标记，仅对中间短缺口线性插值，按户 min-max 后折成「周×星期」矩阵并出热图 (smart-meter weekly heatmap with gap handling) |
 | [el-image-loader-aug](./tools/el-image-loader-aug/) | done | 光伏 EL 图像读取、划分与增强：按 elpv 风格标签 CSV 读入灰度图，按类别确定性分层划分 train/val/test，仅对 train 做翻转/旋转增强并出清单与样例拼图 (EL image loader, stratified split and flip/rotate augmentation) |
+| [wind-curve-binning-filter](./tools/wind-curve-binning-filter/) | done | 风速—功率分箱曲线与离群点过滤：按风速分箱求中位数与四分位距，标记负功率、停机、限电和围栏离群点，输出清洗前后散点与三次方铭牌曲线 (binned wind-power curve with IQR fences) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

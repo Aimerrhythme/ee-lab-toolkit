@@ -63,7 +63,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：加载开源电价基准数据，实现「昨日同时刻」「上周同日」两种朴素预测并输出 MAE/sMAPE 表，作为任何电价模型都要先打败的参照线。
   - 参考：https://github.com/jeslago/epftoolbox · https://arxiv.org/abs/2008.08004
 
-- [todo] wind-curve-binning-filter | 风速—功率分箱曲线与离群点过滤 | 风电, 功率曲线, 分箱, 离群点
+- [done] wind-curve-binning-filter | 风速—功率分箱曲线与离群点过滤 | 风电, 功率曲线, 分箱, 离群点
   - 课堂角度：按风速分箱求中位数与四分位距，标记并剔除限电/停机点，输出清洗前后散点对比图与理论功率曲线，可直接用于风电实验课数据预处理。
   - 参考：https://arxiv.org/abs/2307.08539
 

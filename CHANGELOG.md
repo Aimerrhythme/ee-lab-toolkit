@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `wind-curve-binning-filter`: bin wind speed (default 0.5 m/s), report median and Tukey IQR fences, and mark negative power, shutdown, curtailment, and scattered outliers against a cubic nameplate curve, with a before/after scatter, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `el-image-loader-aug`: load EL solar-cell images from an elpv-style `path,proba,type` CSV, stratified deterministic train/val/test split, train-only flip/rotate augmentation manifest, class-count tables and a sample montage, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `meter-weekly-heatmap`: fold daily smart-meter kWh into week × weekday matrices, mark missing readings (blank/NaN/negative), linearly fill only short interior gaps, normalize per customer, and export long CSV, summary, and heatmap, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `grid-to-graph-export`: export a network as a binary adjacency matrix, 0-based node and directed-edge feature tables, and the positive-sequence bus admittance matrix G/B, from one synthetic 4-bus CSV in Python and base MATLAB. Pandapower IEEE/CIGRE cases are an optional Python engine with the same columns.
