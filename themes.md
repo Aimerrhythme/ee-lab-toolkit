@@ -59,7 +59,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：读取公开 EL 电池片图像与标签，做分层划分、旋转/翻转增强并导出样例拼图，让学生在建模前先看懂图像数据集的结构与类别分布。
   - 参考：https://github.com/zae-bayern/elpv-dataset
 
-- [todo] epf-naive-baselines | 日前电价数据下载与朴素基线评估 | 电价, 基线, MAE, sMAPE
+- [done] epf-naive-baselines | 日前电价数据下载与朴素基线评估 | 电价, 基线, MAE, sMAPE
   - 课堂角度：加载开源电价基准数据，实现「昨日同时刻」「上周同日」两种朴素预测并输出 MAE/sMAPE 表，作为任何电价模型都要先打败的参照线。
   - 参考：https://github.com/jeslago/epftoolbox · https://arxiv.org/abs/2008.08004
 
