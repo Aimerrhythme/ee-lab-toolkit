@@ -84,6 +84,7 @@ python tools/<slug>/examples/run_demo.py
 | [el-image-loader-aug](./tools/el-image-loader-aug/) | done | 光伏 EL 图像读取、划分与增强：按 elpv 风格标签 CSV 读入灰度图，按类别确定性分层划分 train/val/test，仅对 train 做翻转/旋转增强并出清单与样例拼图 (EL image loader, stratified split and flip/rotate augmentation) |
 | [wind-curve-binning-filter](./tools/wind-curve-binning-filter/) | done | 风速—功率分箱曲线与离群点过滤：按风速分箱求中位数与四分位距，标记负功率、停机、限电和围栏离群点，输出清洗前后散点与三次方铭牌曲线 (binned wind-power curve with IQR fences) |
 | [epf-naive-baselines](./tools/epf-naive-baselines/) | done | 日前电价朴素基线评估：对逐小时电价实现「昨日同时刻」「上周同日」两种预测，在同一批评估日上输出 MAE/sMAPE/RMSE 表与分时 MAE 图 (naive day-ahead price baselines) |
+| [bearing-envelope-spectrum](./tools/bearing-envelope-spectrum/) | done | 电机轴承振动包络谱与特征提取：带通、希尔伯特包络和 Hann 窗幅值谱，按转速与轴承几何算 BPFO/BPFI 并标注，导出时域与包络域特征及信噪比 (bearing envelope spectrum with fault-frequency markers) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

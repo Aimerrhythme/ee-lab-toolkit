@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `bearing-envelope-spectrum`: FFT band-pass, Hilbert envelope and Hann-windowed envelope spectrum of a bearing vibration CSV, BPFO/BPFI/BSF/FTF from rpm and geometry, peak and SNR markers, and time/envelope-domain feature export with a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `epf-naive-baselines`: score previous-day and previous-week naive forecasts on an hourly price CSV over the same evaluation days, with MAE, sMAPE (percent, 0/0 as 0), RMSE, per-hour MAE, and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `wind-curve-binning-filter`: bin wind speed (default 0.5 m/s), report median and Tukey IQR fences, and mark negative power, shutdown, curtailment, and scattered outliers against a cubic nameplate curve, with a before/after scatter, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `el-image-loader-aug`: load EL solar-cell images from an elpv-style `path,proba,type` CSV, stratified deterministic train/val/test split, train-only flip/rotate augmentation manifest, class-count tables and a sample montage, in Python (numpy/matplotlib) and base MATLAB.

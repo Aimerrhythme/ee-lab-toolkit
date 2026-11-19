@@ -67,6 +67,6 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：按风速分箱求中位数与四分位距，标记并剔除限电/停机点，输出清洗前后散点对比图与理论功率曲线，可直接用于风电实验课数据预处理。
   - 参考：https://arxiv.org/abs/2307.08539
 
-- [todo] bearing-envelope-spectrum | 电机轴承振动包络谱与特征提取 | 轴承故障, 包络谱, 振动, 特征
+- [done] bearing-envelope-spectrum | 电机轴承振动包络谱与特征提取 | 轴承故障, 包络谱, 振动, 特征
   - 课堂角度：对 CWRU 类振动信号做带通滤波、希尔伯特包络与频谱，计算内圈/外圈特征频率并标注在谱图上，再导出时域/频域统计特征供分类器使用。
   - 参考：https://arxiv.org/abs/2407.14625
