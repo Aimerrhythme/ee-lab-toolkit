@@ -70,3 +70,29 @@ Format: `- [status] slug | Chinese title | keywords`
 - [done] bearing-envelope-spectrum | 电机轴承振动包络谱与特征提取 | 轴承故障, 包络谱, 振动, 特征
   - 课堂角度：对 CWRU 类振动信号做带通滤波、希尔伯特包络与频谱，计算内圈/外圈特征频率并标注在谱图上，再导出时域/频域统计特征供分类器使用。
   - 参考：https://arxiv.org/abs/2407.14625
+
+## 2026-11-20 补货（对接教辅短文 todo 的数据准备/评估工具）
+
+- [todo] theft-imbalance-metrics | 窃电检测不平衡分类评估台 | 不平衡分类, PR 曲线, F1, 混淆矩阵
+  - 课堂角度：用公开窃电数据（正负样本悬殊）演示为什么准确率会"骗人"，同一份预测分别画混淆矩阵、ROC 与 PR 曲线，并对比阈值移动与类别权重的效果。
+  - 参考：https://github.com/henryRDlab/ElectricityTheftDetection
+
+- [todo] insulator-yolo-label-convert | 绝缘子巡检图 VOC→YOLO 标注转换与框可视化 | 绝缘子, YOLO, 标注格式, 数据集划分
+  - 课堂角度：把 XML 框标注批量转换为 YOLO txt 格式，随机抽图叠加检测框核对，并按 7:2:1 划分训练/验证/测试，给后续目标检测实验备好数据。
+  - 参考：https://github.com/InsulatorData/InsulatorDataSet
+
+- [todo] epf-lear-feature-builder | 日前电价 LEAR 特征矩阵构造器 | 电价预测, LEAR, 滞后特征, 日历特征
+  - 课堂角度：把逐时电价与负荷/新能源预测整理成"按日 24 列"的特征矩阵（D-1/D-2/D-7 滞后价格 + 星期哑变量），学生能看清 LEAR 输入到底长什么样。
+  - 参考：https://github.com/jeslago/epftoolbox · https://arxiv.org/abs/2008.08004
+
+- [todo] pv-clearsky-index | 光伏晴空指数计算与晴/多云/阴天划分 | 光伏, 晴空模型, 晴空指数, 天气分型
+  - 课堂角度：用晴空模型算出理论辐照/出力，与实测相除得到晴空指数，按阈值把日子分成晴/多云/阴三类并分别出图，为光伏预测的"分天气建模"做铺垫。
+  - 参考：https://github.com/pvlib/pvlib-python
+
+- [todo] battery-capacity-fade-extract | 锂电循环数据容量衰减曲线提取 | 锂电池, 容量衰减, SOH, 特征提取
+  - 课堂角度：从公开循环老化数据中逐圈积分得到放电容量，画容量—循环数曲线并换算 SOH，再提取前 100 圈的简单统计特征，对接寿命/SOH 预测实验。
+  - 参考：https://www.nature.com/articles/s41560-019-0356-8
+
+- [todo] nilm-window-prep | 非侵入式负荷分解数据对齐与滑窗切分 | NILM, 重采样, 滑动窗口, 数据对齐
+  - 课堂角度：把总表功率与分项电器功率按时间戳对齐、重采样并补缺，再按固定窗长切出"总功率窗→中点电器功率"样本对，作为 seq2point 类模型的输入准备。
+  - 参考：https://github.com/nilmtk/nilmtk
