@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `theft-imbalance-metrics`: evaluate one or more score columns on imbalanced theft labels at a fixed and a best-F1 threshold, with confusion counts, precision/recall/F1, balanced accuracy, ROC-AUC, AP, an always-normal baseline, and a four-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `bearing-envelope-spectrum`: FFT band-pass, Hilbert envelope and Hann-windowed envelope spectrum of a bearing vibration CSV, BPFO/BPFI/BSF/FTF from rpm and geometry, peak and SNR markers, and time/envelope-domain feature export with a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `epf-naive-baselines`: score previous-day and previous-week naive forecasts on an hourly price CSV over the same evaluation days, with MAE, sMAPE (percent, 0/0 as 0), RMSE, per-hour MAE, and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `wind-curve-binning-filter`: bin wind speed (default 0.5 m/s), report median and Tukey IQR fences, and mark negative power, shutdown, curtailment, and scattered outliers against a cubic nameplate curve, with a before/after scatter, in Python (numpy/matplotlib) and base MATLAB.

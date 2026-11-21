@@ -73,7 +73,7 @@ Format: `- [status] slug | Chinese title | keywords`
 
 ## 2026-11-20 补货（对接教辅短文 todo 的数据准备/评估工具）
 
-- [todo] theft-imbalance-metrics | 窃电检测不平衡分类评估台 | 不平衡分类, PR 曲线, F1, 混淆矩阵
+- [done] theft-imbalance-metrics | 窃电检测不平衡分类评估台 | 不平衡分类, PR 曲线, F1, 混淆矩阵
   - 课堂角度：用公开窃电数据（正负样本悬殊）演示为什么准确率会"骗人"，同一份预测分别画混淆矩阵、ROC 与 PR 曲线，并对比阈值移动与类别权重的效果。
   - 参考：https://github.com/henryRDlab/ElectricityTheftDetection
 
