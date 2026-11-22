@@ -77,7 +77,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：用公开窃电数据（正负样本悬殊）演示为什么准确率会"骗人"，同一份预测分别画混淆矩阵、ROC 与 PR 曲线，并对比阈值移动与类别权重的效果。
   - 参考：https://github.com/henryRDlab/ElectricityTheftDetection
 
-- [todo] insulator-yolo-label-convert | 绝缘子巡检图 VOC→YOLO 标注转换与框可视化 | 绝缘子, YOLO, 标注格式, 数据集划分
+- [done] insulator-yolo-label-convert | 绝缘子巡检图 VOC→YOLO 标注转换与框可视化 | 绝缘子, YOLO, 标注格式, 数据集划分
   - 课堂角度：把 XML 框标注批量转换为 YOLO txt 格式，随机抽图叠加检测框核对，并按 7:2:1 划分训练/验证/测试，给后续目标检测实验备好数据。
   - 参考：https://github.com/InsulatorData/InsulatorDataSet
 

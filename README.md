@@ -86,6 +86,7 @@ python tools/<slug>/examples/run_demo.py
 | [epf-naive-baselines](./tools/epf-naive-baselines/) | done | 日前电价朴素基线评估：对逐小时电价实现「昨日同时刻」「上周同日」两种预测，在同一批评估日上输出 MAE/sMAPE/RMSE 表与分时 MAE 图 (naive day-ahead price baselines) |
 | [bearing-envelope-spectrum](./tools/bearing-envelope-spectrum/) | done | 电机轴承振动包络谱与特征提取：带通、希尔伯特包络和 Hann 窗幅值谱，按转速与轴承几何算 BPFO/BPFI 并标注，导出时域与包络域特征及信噪比 (bearing envelope spectrum with fault-frequency markers) |
 | [theft-imbalance-metrics](./tools/theft-imbalance-metrics/) | done | 窃电检测不平衡分类评估台：对带标签的检测分数在固定阈值与最佳 F1 阈值两个工作点输出混淆矩阵、精确率/召回率/F1、ROC-AUC 与 AP，并对比"全判正常"基线 (imbalanced-classification bench for theft detection) |
+| [insulator-yolo-label-convert](./tools/insulator-yolo-label-convert/) | done | 绝缘子巡检图 VOC→YOLO 标注转换与框可视化：裁剪越界框、跳过退化框，按排序位置确定性 7:2:1 划分，输出 classes.txt/data.yaml，并把写出的标签画回图上核对 (VOC to YOLO labels with split and overlay check) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 

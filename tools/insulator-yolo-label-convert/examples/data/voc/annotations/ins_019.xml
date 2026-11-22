@@ -1,0 +1,8 @@
+<annotation>
+  <filename>ins_019.png</filename>
+  <size><width>160</width><height>120</height><depth>3</depth></size>
+  <object><name>insulator</name><bndbox><xmin>28</xmin><ymin>27</ymin><xmax>52</xmax><ymax>102</ymax></bndbox></object>
+  <object><name>insulator</name><bndbox><xmin>108</xmin><ymin>27</ymin><xmax>132</xmax><ymax>93</ymax></bndbox></object>
+  <object><name>insulator</name><bndbox><xmin>50</xmin><ymin>40</ymin><xmax>50</xmax><ymax>80</ymax></bndbox></object>
+  <object><name>insulator</name><bndbox><xmin>150</xmin><ymin>100</ymin><xmax>175</xmax><ymax>130</ymax></bndbox></object>
+</annotation>
