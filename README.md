@@ -84,6 +84,7 @@ python tools/<slug>/examples/run_demo.py
 | [el-image-loader-aug](./tools/el-image-loader-aug/) | done | 光伏 EL 图像读取、划分与增强：按 elpv 风格标签 CSV 读入灰度图，按类别确定性分层划分 train/val/test，仅对 train 做翻转/旋转增强并出清单与样例拼图 (EL image loader, stratified split and flip/rotate augmentation) |
 | [wind-curve-binning-filter](./tools/wind-curve-binning-filter/) | done | 风速—功率分箱曲线与离群点过滤：按风速分箱求中位数与四分位距，标记负功率、停机、限电和围栏离群点，输出清洗前后散点与三次方铭牌曲线 (binned wind-power curve with IQR fences) |
 | [epf-naive-baselines](./tools/epf-naive-baselines/) | done | 日前电价朴素基线评估：对逐小时电价实现「昨日同时刻」「上周同日」两种预测，在同一批评估日上输出 MAE/sMAPE/RMSE 表与分时 MAE 图 (naive day-ahead price baselines) |
+| [epf-lear-feature-builder](./tools/epf-lear-feature-builder/) | done | 日前电价 LEAR 特征矩阵构造器：把逐小时电价/负荷预测整理成按日一行的特征矩阵（D-1/2/3/7 滞后价格 + 负荷 + 星期哑变量） (LEAR input feature matrix builder) |
 | [bearing-envelope-spectrum](./tools/bearing-envelope-spectrum/) | done | 电机轴承振动包络谱与特征提取：带通、希尔伯特包络和 Hann 窗幅值谱，按转速与轴承几何算 BPFO/BPFI 并标注，导出时域与包络域特征及信噪比 (bearing envelope spectrum with fault-frequency markers) |
 | [theft-imbalance-metrics](./tools/theft-imbalance-metrics/) | done | 窃电检测不平衡分类评估台：对带标签的检测分数在固定阈值与最佳 F1 阈值两个工作点输出混淆矩阵、精确率/召回率/F1、ROC-AUC 与 AP，并对比"全判正常"基线 (imbalanced-classification bench for theft detection) |
 | [insulator-yolo-label-convert](./tools/insulator-yolo-label-convert/) | done | 绝缘子巡检图 VOC→YOLO 标注转换与框可视化：裁剪越界框、跳过退化框，按排序位置确定性 7:2:1 划分，输出 classes.txt/data.yaml，并把写出的标签画回图上核对 (VOC to YOLO labels with split and overlay check) |

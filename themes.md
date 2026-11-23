@@ -81,7 +81,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：把 XML 框标注批量转换为 YOLO txt 格式，随机抽图叠加检测框核对，并按 7:2:1 划分训练/验证/测试，给后续目标检测实验备好数据。
   - 参考：https://github.com/InsulatorData/InsulatorDataSet
 
-- [todo] epf-lear-feature-builder | 日前电价 LEAR 特征矩阵构造器 | 电价预测, LEAR, 滞后特征, 日历特征
+- [done] epf-lear-feature-builder | 日前电价 LEAR 特征矩阵构造器 | 电价预测, LEAR, 滞后特征, 日历特征
   - 课堂角度：把逐时电价与负荷/新能源预测整理成"按日 24 列"的特征矩阵（D-1/D-2/D-7 滞后价格 + 星期哑变量），学生能看清 LEAR 输入到底长什么样。
   - 参考：https://github.com/jeslago/epftoolbox · https://arxiv.org/abs/2008.08004
 

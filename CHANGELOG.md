@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `epf-lear-feature-builder`: build the LEAR one-row-per-day feature matrix from an hourly price CSV (D-1/2/3/7 price lags, optional target-day load forecast, weekday one-hot) with target matrix, CSV export and heatmap, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `insulator-yolo-label-convert`: convert Pascal-VOC XML boxes to YOLO txt (clip, skip degenerate/unknown-class boxes), deterministic 7:2:1 round-robin split, classes.txt/data.yaml, and a check figure that redraws the written labels, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `theft-imbalance-metrics`: evaluate one or more score columns on imbalanced theft labels at a fixed and a best-F1 threshold, with confusion counts, precision/recall/F1, balanced accuracy, ROC-AUC, AP, an always-normal baseline, and a four-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `bearing-envelope-spectrum`: FFT band-pass, Hilbert envelope and Hann-windowed envelope spectrum of a bearing vibration CSV, BPFO/BPFI/BSF/FTF from rpm and geometry, peak and SNR markers, and time/envelope-domain feature export with a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
