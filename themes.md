@@ -85,7 +85,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：把逐时电价与负荷/新能源预测整理成"按日 24 列"的特征矩阵（D-1/D-2/D-7 滞后价格 + 星期哑变量），学生能看清 LEAR 输入到底长什么样。
   - 参考：https://github.com/jeslago/epftoolbox · https://arxiv.org/abs/2008.08004
 
-- [todo] pv-clearsky-index | 光伏晴空指数计算与晴/多云/阴天划分 | 光伏, 晴空模型, 晴空指数, 天气分型
+- [done] pv-clearsky-index | 光伏晴空指数计算与晴/多云/阴天划分 | 光伏, 晴空模型, 晴空指数, 天气分型
   - 课堂角度：用晴空模型算出理论辐照/出力，与实测相除得到晴空指数，按阈值把日子分成晴/多云/阴三类并分别出图，为光伏预测的"分天气建模"做铺垫。
   - 参考：https://github.com/pvlib/pvlib-python
 
