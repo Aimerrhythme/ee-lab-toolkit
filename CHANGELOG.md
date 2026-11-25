@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `battery-capacity-fade-extract`: per-cycle discharge capacity by trapezoid integration of |I|dt, SOH against nominal or first-cycle capacity, early-cycle features (mean, std, slope, delta) and end-of-life cycle, with CSV export and a capacity/SOH figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `pv-clearsky-index`: Haurwitz clear-sky GHI (Cooper declination, solar-time input), daily clear-sky index kt over cosz >= 0.2 samples, clear/cloudy/overcast classification by thresholds, CSV export and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `epf-lear-feature-builder`: build the LEAR one-row-per-day feature matrix from an hourly price CSV (D-1/2/3/7 price lags, optional target-day load forecast, weekday one-hot) with target matrix, CSV export and heatmap, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `insulator-yolo-label-convert`: convert Pascal-VOC XML boxes to YOLO txt (clip, skip degenerate/unknown-class boxes), deterministic 7:2:1 round-robin split, classes.txt/data.yaml, and a check figure that redraws the written labels, in Python (numpy/matplotlib) and base MATLAB.

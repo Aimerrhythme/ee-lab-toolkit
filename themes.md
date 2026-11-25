@@ -89,7 +89,7 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：用晴空模型算出理论辐照/出力，与实测相除得到晴空指数，按阈值把日子分成晴/多云/阴三类并分别出图，为光伏预测的"分天气建模"做铺垫。
   - 参考：https://github.com/pvlib/pvlib-python
 
-- [todo] battery-capacity-fade-extract | 锂电循环数据容量衰减曲线提取 | 锂电池, 容量衰减, SOH, 特征提取
+- [done] battery-capacity-fade-extract | 锂电循环数据容量衰减曲线提取 | 锂电池, 容量衰减, SOH, 特征提取
   - 课堂角度：从公开循环老化数据中逐圈积分得到放电容量，画容量—循环数曲线并换算 SOH，再提取前 100 圈的简单统计特征，对接寿命/SOH 预测实验。
   - 参考：https://www.nature.com/articles/s41560-019-0356-8
 
