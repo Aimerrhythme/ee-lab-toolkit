@@ -93,6 +93,6 @@ Format: `- [status] slug | Chinese title | keywords`
   - 课堂角度：从公开循环老化数据中逐圈积分得到放电容量，画容量—循环数曲线并换算 SOH，再提取前 100 圈的简单统计特征，对接寿命/SOH 预测实验。
   - 参考：https://www.nature.com/articles/s41560-019-0356-8
 
-- [todo] nilm-window-prep | 非侵入式负荷分解数据对齐与滑窗切分 | NILM, 重采样, 滑动窗口, 数据对齐
+- [done] nilm-window-prep | 非侵入式负荷分解数据对齐与滑窗切分 | NILM, 重采样, 滑动窗口, 数据对齐
   - 课堂角度：把总表功率与分项电器功率按时间戳对齐、重采样并补缺，再按固定窗长切出"总功率窗→中点电器功率"样本对，作为 seq2point 类模型的输入准备。
   - 参考：https://github.com/nilmtk/nilmtk

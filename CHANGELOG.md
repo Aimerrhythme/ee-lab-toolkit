@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- Tool `nilm-window-prep`: bin aggregate and appliance power to a regular grid, linearly fill short interior gaps only, and cut odd-length windows (window of aggregate -> midpoint appliance power) skipping windows touching unfilled gaps, with CSV export and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `battery-capacity-fade-extract`: per-cycle discharge capacity by trapezoid integration of |I|dt, SOH against nominal or first-cycle capacity, early-cycle features (mean, std, slope, delta) and end-of-life cycle, with CSV export and a capacity/SOH figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `pv-clearsky-index`: Haurwitz clear-sky GHI (Cooper declination, solar-time input), daily clear-sky index kt over cosz >= 0.2 samples, clear/cloudy/overcast classification by thresholds, CSV export and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `epf-lear-feature-builder`: build the LEAR one-row-per-day feature matrix from an hourly price CSV (D-1/2/3/7 price lags, optional target-day load forecast, weekday one-hot) with target matrix, CSV export and heatmap, in Python (numpy/matplotlib) and base MATLAB.
