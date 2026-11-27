@@ -96,3 +96,29 @@ Format: `- [status] slug | Chinese title | keywords`
 - [done] nilm-window-prep | 非侵入式负荷分解数据对齐与滑窗切分 | NILM, 重采样, 滑动窗口, 数据对齐
   - 课堂角度：把总表功率与分项电器功率按时间戳对齐、重采样并补缺，再按固定窗长切出"总功率窗→中点电器功率"样本对，作为 seq2point 类模型的输入准备。
   - 参考：https://github.com/nilmtk/nilmtk
+
+## 2026-11-27 补货（对接教辅短文新 todo 的数据准备/评估工具）
+
+- [todo] ett-window-loader | ETT 变压器油温数据加载与滑窗切分 | ETT, 滑动窗口, 归一化, 时序预处理
+  - 课堂角度：读取 ETTh1/ETTm1 CSV，按时间顺序划分训练/验证/测试、只用训练集统计量做标准化，切出「输入窗→预测窗」样本并画油温—负荷对照图，避免学生踩"未来信息泄露"的坑。
+  - 参考：https://github.com/zhouhaoyi/ETDataset · https://arxiv.org/abs/2012.07436
+
+- [todo] soc-coulomb-baseline | 库仑计数 SOC 基线与误差注入演示 | SOC, 安时积分, 传感器偏置, 锂电池
+  - 课堂角度：对公开电池工况电流做安时积分得到 SOC 曲线，人为注入初值误差与电流偏置并画误差漂移，作为任何数据驱动 SOC 模型都要比较的基线。
+  - 参考：https://data.mendeley.com/datasets/b5mj79w5w9/2
+
+- [todo] cwru-segment-loader | CWRU 轴承数据读取、分段与标签整理 | CWRU, 振动, 数据集划分, 分段
+  - 课堂角度：批量读取 .mat 振动文件，按固定点数切段并整理成「故障类型/直径/载荷」标签表，按工况分层划分，给包络谱特征与 1D-CNN 实验共用同一份数据接口。
+  - 参考：https://engineering.case.edu/bearingdatacenter
+
+- [todo] pinball-coverage-eval | 概率预测评估台：Pinball Loss 与区间覆盖率 | 概率预测, 分位数, Pinball Loss, 可靠性图
+  - 课堂角度：输入多分位数预测结果，输出各分位 Pinball Loss、预测区间覆盖率与平均宽度，并画可靠性图，让学生会"评价"概率预测而不仅是做出来。
+  - 参考：https://doi.org/10.1016/j.ijforecast.2016.02.001
+
+- [todo] pd-signal-features | 局放高频信号去噪与峰值特征提取 | 局部放电, 小波去噪, 峰值统计, 特征工程
+  - 课堂角度：对架空线高频电压信号做高通/小波去噪，统计峰值数量、幅值、宽度与相位分布，导出特征表并画去噪前后对比图，作为局放分类实验的预处理环节。
+  - 参考：https://www.kaggle.com/c/vsb-power-line-fault-detection
+
+- [todo] dc-motor-sim-dataset | 直流电机阶跃仿真数据生成器（带噪声） | 直流电机, 仿真, 数据生成, 系统辨识
+  - 课堂角度：按电枢回路与机械方程用 ODE 求解生成电流/转速数据，可调参数、采样率与测量噪声，导出 CSV 供 SINDy/最小二乘辨识实验使用，同时复习电机方程。
+  - 参考：https://github.com/dynamicslab/pysindy · https://arxiv.org/abs/2111.08481
