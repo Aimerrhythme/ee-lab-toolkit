@@ -6,6 +6,7 @@ All notable tools and breaking changes are listed here.
 
 ### Added
 
+- 2026-11-28 Tool `ett-window-loader`: load ETT-format CSV (synthetic sample, no real data), chronological train/val/test split, TRAIN-only z-score scaling, input-window -> forecast-window samples that never cross split boundaries, oil temperature vs load figure and a no-leakage pytest, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `nilm-window-prep`: bin aggregate and appliance power to a regular grid, linearly fill short interior gaps only, and cut odd-length windows (window of aggregate -> midpoint appliance power) skipping windows touching unfilled gaps, with CSV export and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `battery-capacity-fade-extract`: per-cycle discharge capacity by trapezoid integration of |I|dt, SOH against nominal or first-cycle capacity, early-cycle features (mean, std, slope, delta) and end-of-life cycle, with CSV export and a capacity/SOH figure, in Python (numpy/matplotlib) and base MATLAB.
 - Tool `pv-clearsky-index`: Haurwitz clear-sky GHI (Cooper declination, solar-time input), daily clear-sky index kt over cosz >= 0.2 samples, clear/cloudy/overcast classification by thresholds, CSV export and a two-panel figure, in Python (numpy/matplotlib) and base MATLAB.

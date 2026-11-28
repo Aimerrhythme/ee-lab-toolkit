@@ -99,7 +99,7 @@ Format: `- [status] slug | Chinese title | keywords`
 
 ## 2026-11-27 补货（对接教辅短文新 todo 的数据准备/评估工具）
 
-- [todo] ett-window-loader | ETT 变压器油温数据加载与滑窗切分 | ETT, 滑动窗口, 归一化, 时序预处理
+- [done] ett-window-loader | ETT 变压器油温数据加载与滑窗切分 | ETT, 滑动窗口, 归一化, 时序预处理
   - 课堂角度：读取 ETTh1/ETTm1 CSV，按时间顺序划分训练/验证/测试、只用训练集统计量做标准化，切出「输入窗→预测窗」样本并画油温—负荷对照图，避免学生踩"未来信息泄露"的坑。
   - 参考：https://github.com/zhouhaoyi/ETDataset · https://arxiv.org/abs/2012.07436
 

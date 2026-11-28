@@ -91,6 +91,7 @@ python tools/<slug>/examples/run_demo.py
 | [pv-clearsky-index](./tools/pv-clearsky-index/) | done | 光伏晴空指数计算与晴/多云/阴天划分：Haurwitz 晴空模型算理论辐照，与实测相除得日 kt，按阈值分晴/多云/阴并出图 (clear-sky index and sky-type classification) |
 | [battery-capacity-fade-extract](./tools/battery-capacity-fade-extract/) | done | 锂电循环数据容量衰减曲线提取：逐圈积分放电容量、换算 SOH、提取前 100 圈统计特征 (capacity fade and SOH extraction) |
 | [nilm-window-prep](./tools/nilm-window-prep/) | done | 非侵入式负荷分解数据对齐与滑窗切分：总表与分项功率按时间戳分箱对齐、补短缺口，并切出「总功率窗→中点电器功率」样本对 (aggregate/appliance alignment and seq2point windowing for NILM) |
+| [ett-window-loader](./tools/ett-window-loader/) | done | ETT 变压器油温数据加载与滑窗切分：读取 ETTh1/ETTm1 格式 CSV，按时间划分训练/验证/测试，只用训练段均值与标准差标准化，窗口不跨分段，附油温—负荷对照图与无泄露测试 (ETT loader with train-only scaling and leak-free sliding windows) |
 
 更多主题见 [`themes.md`](./themes.md)。完成后继续追加本表。
 
